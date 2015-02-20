@@ -3,3 +3,4 @@ class Puppy < ActiveRecord::Base
     validates :age, numericality: true
     validates :name, length: {minimum: 3}
 end
+  
